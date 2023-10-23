@@ -1,6 +1,6 @@
 # crud_app_1
 
-A new Flutter project.
+Entrega Trabajo 3 - Computación Móvil.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 Integrantes del equipo de trabajo:
-Cristobal Escocar
-Fernando Rojas
-Esteban Reinoso
-Alan Palma 
+Cristobal Escocar,
+Fernando Rojas,
+Esteban Reinoso,
+Alan Palma. 
