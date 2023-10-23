@@ -98,7 +98,7 @@ class RegisterForm extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
             ),
             disabledColor: Colors.grey,
-            color: Colors.orange,
+            color: Color.fromRGBO(35, 78, 197, 1),
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 80, vertical: 10),
               child: Text(

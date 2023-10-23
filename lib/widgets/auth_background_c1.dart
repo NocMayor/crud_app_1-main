@@ -13,33 +13,33 @@ class AuthBackgorundC1 extends StatelessWidget {
         children: [
           Positioned(
             child: Buble(),
-            top: 90,
-            left: 30,
+            top: 40,
+            left: 50,
           ),
           Positioned(
             child: Buble(),
-            top: -40,
+            top: -30,
+            left: -70,
+          ),
+          Positioned(
+            child: Buble(),
+            top: -10,
+            right: -25,
+          ),
+          Positioned(
+            child: Buble(),
+            bottom: -80,
             left: -30,
           ),
           Positioned(
             child: Buble(),
-            top: -50,
-            right: -20,
+            bottom: 100,
+            right: 40,
           ),
           Positioned(
             child: Buble(),
-            bottom: -50,
-            left: -20,
-          ),
-          Positioned(
-            child: Buble(),
-            bottom: 120,
-            right: 20,
-          ),
-          Positioned(
-            child: Buble(),
-            bottom: 20,
-            right: 80,
+            bottom: 30,
+            right: 100,
           ),
         ],
       ),
@@ -48,8 +48,8 @@ class AuthBackgorundC1 extends StatelessWidget {
 
   BoxDecoration orangeDecoration() => const BoxDecoration(
           gradient: LinearGradient(colors: [
-        Color.fromRGBO(255, 165, 0, 1),
-        Color.fromRGBO(255, 100, 2, 1),
+         Color.fromRGBO(35, 78, 197, 1),
+         Color.fromRGBO(35, 78, 230, 2),
       ]));
 }
 

@@ -9,11 +9,11 @@ class InputDecortions {
     return InputDecoration(
         enabledBorder: const UnderlineInputBorder(
             borderSide: BorderSide(
-          color: Colors.orange,
+          color:  Color.fromRGBO(35, 78, 197, 1),
         )),
         focusedBorder: const UnderlineInputBorder(
             borderSide: BorderSide(
-          color: Colors.orange,
+          color:  Color.fromRGBO(35, 78, 197, 1),
           width: 3,
         )),
         hintText: hinText,
@@ -22,7 +22,7 @@ class InputDecortions {
         prefixIcon: prefixIcon != null
             ? Icon(
                 prefixIcon,
-                color: Colors.orange,
+                color:  Color.fromRGBO(35, 78, 197, 1),
               )
             : null);
   }

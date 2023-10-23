@@ -27,7 +27,7 @@ class ProductCard extends StatelessWidget {
 
   BoxDecoration _cardDecorations() => BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(25),
+          borderRadius: BorderRadius.circular(15),
           boxShadow: const [
             BoxShadow(
               color: Colors.black,
@@ -58,7 +58,7 @@ class _PriceTag extends StatelessWidget {
       decoration: const BoxDecoration(
           color: Color.fromRGBO(35, 78, 197, 1),
           borderRadius: BorderRadius.only(
-              topRight: Radius.circular(25), bottomLeft: Radius.circular(25))),
+              topRight: Radius.circular(15), bottomLeft: Radius.circular(15))),
     );
   }
 }
@@ -84,7 +84,7 @@ class _State extends StatelessWidget {
       decoration: const BoxDecoration(
           color: Colors.red,
           borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(25), bottomRight: Radius.circular(25))),
+              topLeft: Radius.circular(15), bottomRight: Radius.circular(15))),
     );
   }
 }
@@ -140,7 +140,7 @@ class _BackGroundImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.circular(25),
+      borderRadius: BorderRadius.circular(15),
       child: Container(
         width: double.infinity,
         height: 400,

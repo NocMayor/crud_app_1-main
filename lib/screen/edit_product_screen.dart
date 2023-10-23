@@ -45,20 +45,20 @@ class _ProductScreenBody extends StatelessWidget {
                     icon: const Icon(
                       Icons.arrow_back_ios,
                       size: 40,
-                      color: Colors.white,
+                      color:  Color.fromRGBO(35, 78, 197, 1),
                     )),
               ),
-              Positioned(
-                top: 40,
-                right: 20,
-                child: IconButton(
-                    onPressed: () => {},
-                    icon: const Icon(
-                      Icons.camera_alt_outlined,
-                      size: 40,
-                      color: Colors.white,
-                    )),
-              )
+              // Positioned(
+              //   top: 40,
+              //   right: 20,
+              //   child: IconButton(
+              //       onPressed: () => {},
+              //       icon: const Icon(
+              //         Icons.camera_alt_outlined,
+              //         size: 40,
+              //         color:  Color.fromRGBO(35, 78, 197, 1),
+              //       )),
+              // )
             ],
           ),
           _ProductForm(),
